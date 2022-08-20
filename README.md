@@ -11,3 +11,13 @@ What i've done on this project are:
 * Created TensorFlow base model and did hyperparameter tuning from 4 different datasets using Bayesian Method that provided by KerasTuner. 
 * Convert TensorFlow model so that it can be used in Simulink to validate models performance when controlling aircraft in X-Plane to accomplish flight mission.  
 * Analyze effects of train dataset espescially in roll angle range to the perfromance of the controller created from 4 different models trained from different dataset. 
+
+# [Project 2: Neural Style Transfer using AdaIn Method](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
+This is my capstone project at Bangkit Academy 2022 that awarded as top 53 capstone team semifinalist out of 433 teams. My job as machine learning cohort was create style transfer (NST) model using AdaIn Method by utilizing TensorFlow 2.x. Neural style transfer is an optimization technique used to blend two images become one image, where the reconstructed image will preserve the object from content image, while transfering style such as brushstroke from style image.
+
+Image dataset that i used contain of "PASCAL VOC" dataset and validation set of "COCO-2017" as content image (arround 14k images) and style image dataset consisting "Best Artwork of All Time" and "Wikiart" dataset (arround 13k images) 
+
+What i've done on this project are: 
+* Processed arround 27k images to have size of 224x224, convert it to *.tfrecords format to enable parallelization training, and split the dataset into train, validation and test dataset. 
+* Create style transfer model with AdaIn method, which consist of encoder model that based on sliced VGG-19 pretrained model, decoder that basically inverse of the encoder model also AdaIn function to allign statistical features of content image and style image. 
+* Train models with those image datasets for 500 epochs and show the reconstructed image every 10 epochs to see performance of NST model. 
