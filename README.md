@@ -47,4 +47,4 @@ This is a team project done on my 7th semester for "Aviation System Planning" cl
 * Conduct profitability analysis and calculate the price we need to give each kilogram of cargo for each route we served.
 *Analysis profit earn each year, create cash flow for 10 years period and calculate Net Present Values and Net Profit Margin earned
 
-Final presentation of this project can be found here.
+Final presentation of this project can be found [here](https://github.com/adikelvianto/Aglis_Air_Cargo/blob/main/PSA%202021_Aglis_Finale.pptx).
