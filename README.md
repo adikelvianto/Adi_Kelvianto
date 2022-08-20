@@ -21,3 +21,16 @@ What i've done on this project are:
 * Processed arround 27k images to have size of 224x224, convert it to *.tfrecords format to enable parallelization training, and split the dataset into train, validation and test dataset. 
 * Create style transfer model with AdaIn method, which consist of encoder model that based on sliced VGG-19 pretrained model, decoder that basically inverse of the encoder model also AdaIn function to allign statistical features of content image and style image. 
 * Train models with those image datasets for 500 epochs and show the reconstructed image every 10 epochs to see performance of NST model. 
+
+# [Project 3: Avionic Components Failure Prediction Deployed on Website](https://github.com/adikelvianto/Avionic-Components-Failure-Prediction)
+This is my internship project at PT. GMF Aeroasia Tbk. for about 3 months. In this project, i created a website to give failure prediction of VHF Omnidirectional Range and Multimode Control Panel components, by using scikit-learn library, HTML, CSS and Flask.
+
+What i've done on this project are: 
+* Collected information regarding maintenance from "Internal Component Refurbishment" documents both for VOR component (19 sub test) and Multimode Control Panel component (23 sub test).
+* Split dataset into train, validation and test dataset and did "Nested Cross Validation" method to get best hyperparameter for each machine learning algorithm used (Decision Tree, Random Forest, Gradient Boosting, Gaussian Naive Bayes, KNN, MLP).
+* Picked 3 best perform algorithm for both component that give best accuracy on test set to be deployed on website. 
+* Created structure of the website using HTML with total of  5 pages, designed using CSS and a bit of JavaScript to allow value stored in each toggle button changed when user give a click. 
+* Deploy this website by using Flask API and help of Heroku platform as server. 
+
+Result of the deploy website can be found on this link.
+[Avionics Component Failure Predicion](https://avionic-failure-prediction.herokuapp.com/)
