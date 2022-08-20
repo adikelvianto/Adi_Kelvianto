@@ -22,6 +22,9 @@ What i've done on this project are:
 * Create style transfer model with AdaIn method, which consist of encoder model that based on sliced VGG-19 pretrained model, decoder that basically inverse of the encoder model also AdaIn function to allign statistical features of content image and style image. 
 * Train models with those image datasets for 500 epochs and show the reconstructed image every 10 epochs to see performance of NST model. 
 
+![image](https://user-images.githubusercontent.com/92104520/185745237-39e97e3d-624e-4e4d-ba90-442dea43182a.png)
+
+
 # [Project 3: Avionic Components Failure Prediction Deployed on Website](https://github.com/adikelvianto/Avionic-Components-Failure-Prediction)
 This is my internship project at PT. GMF Aeroasia Tbk. for about 3 months. In this project, i created a website to give failure prediction of VHF Omnidirectional Range and Multimode Control Panel components, by using scikit-learn library, HTML, CSS and Flask.
 
