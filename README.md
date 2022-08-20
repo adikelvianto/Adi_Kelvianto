@@ -1,6 +1,6 @@
 # My Portfolio
 
-# [Project 1: Fly-over Waypoint Following Control System of Cirrus Vision SF-50 Aircraft using Artificial Neural Network (ANN)](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
+# [Project 1: Fly-over Waypoint Following Control System of Cirrus Vision SF-50 Aircraft using Artificial Neural Network](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
 This is my undergradute thesis project, with the goals are to develop waypoint following controller ANN model for Cirrus Vision SF50 aircraft and study the relationship between training data that categorized by aircraft roll angle during the mission. This study give results that ANN model generally increase closeness of the aircraft to the waypoint compared to the PID method. It also shown that wider datasets didn't guarantee superior results due to generalizations that model try to made.
 
 What i've done on this project are:
@@ -34,3 +34,4 @@ What i've done on this project are:
 
 Result of the deploy website can be found on this link.
 [Avionics Component Failure Predicion](https://avionic-failure-prediction.herokuapp.com/)
+
