@@ -12,6 +12,12 @@ What i've done on this project are:
 * Convert TensorFlow model so that it can be used in Simulink to validate models performance when controlling aircraft in X-Plane to accomplish flight mission.  
 * Analyze effects of train dataset espescially in roll angle range to the perfromance of the controller created from 4 different models trained from different dataset. 
 
+Video below show how Cirrus Vision SF50 aircraft can accomplish the flight mission defined when being simulated using one of deep learning model created.
+
+https://user-images.githubusercontent.com/92104520/196456544-5096daf2-f6e2-4ec7-9fd8-40925ad4faa3.mp4
+
+https://user-images.githubusercontent.com/92104520/196456562-fa5d0a9f-5bb8-4e03-aad7-eb316a9437b1.mp4
+
 # [Project 2: Neural Style Transfer using AdaIn Method](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
 This is my capstone project at Bangkit Academy 2022 that awarded as top 53 capstone team semifinalist out of 433 teams. My job as machine learning cohort was create style transfer (NST) model using AdaIn Method by utilizing TensorFlow 2.x. Neural style transfer is an optimization technique used to blend two images become one image, where the reconstructed image will preserve the object from content image, while transfering style such as brushstroke from style image.
 
@@ -35,8 +41,7 @@ What i've done on this project are:
 * Created structure of the website using HTML with total of  5 pages, designed using CSS and a bit of JavaScript to allow value stored in each toggle button changed when user give a click. 
 * Deploy this website by using Flask API and help of Heroku platform as server. 
 
-Result of the deploy website can be found on this link.
-[Avionics Component Failure Predicion](https://avionic-failure-prediction.herokuapp.com/)
+Result of the deploy website can be found [here](https://avionic-failure-prediction.herokuapp.com/)
 
 # [Project 4: Cargo Airlines Financial Analysis](https://github.com/adikelvianto/Aglis_Air_Cargo)
 This is a team project done on my 7th semester for "Aviation System Planning" class, which requires each team to create an aviation business from raw and will be evaluated by experienced people on this area. In this project, we decided to create a cargo airline named "Aglis" which focuses on delivering marine products and general goods. In this project, i have a duty as CFO that conduct several task such as:
@@ -45,7 +50,7 @@ This is a team project done on my 7th semester for "Aviation System Planning" cl
 * Create maintenance schedule to determine non operating days and make sure all aircraft is airworthy.
 * Calculate cost structure of cargo airline company consisting of direct, indirect and ownership costs.
 * Conduct profitability analysis and calculate the price we need to give each kilogram of cargo for each route we served.
-*Analysis profit earn each year, create cash flow for 10 years period and calculate Net Present Values and Net Profit Margin earned
+* Analyze profit earn each year, create cash flow for 10 years period and calculate Net Present Values and Net Profit Margin earned
 
 ![image](https://user-images.githubusercontent.com/92104520/185748563-0ae2ef8c-3608-45f4-abae-2966ed55ed35.png)
 
