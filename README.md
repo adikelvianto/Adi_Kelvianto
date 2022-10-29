@@ -4,7 +4,14 @@
 
 # My Projects
 
-## [Deep Learning Based Fly-Over Waypoints Control System for Business Jet Aircraft ](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
+## [Analysis of Divvy 2021 using R]([https://github.com/adikelvianto/Auto_Landing_DL](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r))
+### October 2022
+
+## [Development of Auto Landing Deep Learning Model for Boeing 747 Aircraft](https://github.com/adikelvianto/Auto_Landing_DL)
+### October 2022
+
+
+## [Deep Learning Based Fly-Over Waypoints Control System for Business Jet Aircraft](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
 ### September 2022
 This is my undergradute thesis project, with the goals are to **develop waypoint following controller deep learning model** espescially for **Cirrus Vision SF50** aircraft and **study the relationship between training data** that categorized by aircraft roll angle during the mission. This study give results that deep learning model generally increase closeness of the aircraft to the waypoint compared to the PID method, eventhough the dataset used is a piece of sliced data. It also shown that **wider datasets didn’t guarantee superior results** due to generalizations that model try to made.
 
