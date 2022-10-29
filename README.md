@@ -4,7 +4,7 @@
 
 # My Projects
 
-# [Deep Learning Based Fly-Over Waypoints Control System for Business Jet Aircraft ](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
+## [Deep Learning Based Fly-Over Waypoints Control System for Business Jet Aircraft ](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
 ### September 2022
 This is my undergradute thesis project, with the goals are to **develop waypoint following controller deep learning model** espescially for **Cirrus Vision SF50** aircraft and **study the relationship between training data** that categorized by aircraft roll angle during the mission. This study give results that deep learning model generally increase closeness of the aircraft to the waypoint compared to the PID method, eventhough the dataset used is a piece of sliced data. It also shown that **wider datasets didn’t guarantee superior results** due to generalizations that model try to made.
 
@@ -18,7 +18,8 @@ What I've done on this project are:
 * **Analyze** effects of train dataset espescially in **roll angle range** to the perfromance of the controller created from 4 different models trained from different dataset. 
 
 
-# [Neural Style Transfer using AdaIn Method - June 2022](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
+## [Neural Style Transfer using AdaIn Method](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
+### June 2022
 This is my **capstone project** at **Bangkit Academy 2022** that awarded as **top 53** capstone team **semifinalist** out of 433 teams. My job as machine learning cohort was create Neural Style Transfer (NST) model using AdaIn Method by utilizing TensorFlow 2.x. **Neural style transfer** is an optimization technique used to **blend two images** become one image, where the reconstructed image will **preserve the object from content image**, while **transfering style** such as brushstroke from style image.
 
 Image dataset that i used contain of **"PASCAL VOC"** dataset and validation set of **"COCO-2017"** as content image (arround **14k** images) and style image dataset consisting **"Best Artwork of All Time"** and **"Wikiart"** dataset (arround **13k** images) 
@@ -31,7 +32,8 @@ What i've done on this project are:
 ![image](https://user-images.githubusercontent.com/92104520/185745237-39e97e3d-624e-4e4d-ba90-442dea43182a.png)
 
 
-# [Prototype Webiste based Application for Avionic Components Failure Prediction - December 2021](https://github.com/adikelvianto/Avionic-Components-Failure-Prediction)
+## [Prototype Webiste based Application for Avionic Components Failure Prediction](https://github.com/adikelvianto/Avionic-Components-Failure-Prediction)
+### December 2021
 This is my **internship** project at** PT. GMF Aeroasia Tbk**. for about **4 months**. In this project, I created a **website** to give **failure prediction** of VHF Omnidirectional Range (VOR) and Multimode Control Panel components, by using **scikit-learn** library, **HTML, CSS and Flask.**
 
 What I've done on this project are: 
@@ -43,7 +45,8 @@ What I've done on this project are:
 
 Result of the deploy website can be found [**here**](https://avionic-failure-prediction.herokuapp.com/)
 
-# [Cargo Airlines Financial Analysis - December 2021](https://github.com/adikelvianto/Aglis_Air_Cargo)
+## [Cargo Airlines Financial Analysis](https://github.com/adikelvianto/Aglis_Air_Cargo)
+### December 2021
 This is a **team project** done on my 7th semester for **"Aviation System Planning" class**, which requires each team to create an aviation business from raw and will be evaluated by experienced people on this area. In this project, we decided to create a **cargo airline** named **"Aglis"** which focuses on delivering marine products and general goods. In this project, I have a **duty as Chief Finance Officer (CFO)** that conduct several task such as:
 
 * **Find** the **most suitable aircraft** to be used also the **number of aircrafts needed** to serve demand we have.
