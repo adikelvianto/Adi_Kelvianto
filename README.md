@@ -12,17 +12,14 @@
 This project aim to create **auto landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorcder"** data. 
 * First process done is **preprocessing the FDR data** which have a big size each flight and consisting a lot of noise, until we have dataset for training, validation, and testing.
 * There are two models built, elevator model and throttle model, with the step by step process can be shown in following notebook [Build Model - Elevator.ipynb](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/Build%20Model%20-%20Elevator.ipynb), [Build Model - Throttle.ipynb](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/Build%20Model%20-%20Throttle.ipynb)
-* The next development of this project is to deploy it to MATLAB/Simulink and X-Plane to see wether this models can do their job as an auto landing control system.
+* The next development of this project is to deploy it to MATLAB/Simulink and X-Plane to see wether this models can do their job as an auto landing control system.* 
 
-## Result
-
-* [Elevator model](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/model/elevator_model.h5) work **really well** in predicting elevator deflection on landing phase. The predicted and actual trend is very similar, eventhough some of graphs shown the predicted value have **offset** value, but it **never exceed 4 degrees**. Hence, this model could be said well performed. This picture below shown sample of predicted value vs actual test set value for the elevator deflection. 
+* Here are some **comparison** between **model prediction** value and **actual value**, **both** for elevator model and throttle model. 
 
 <p align="center">
 <img width="1307" alt="Elevator Comparison" src="https://user-images.githubusercontent.com/92104520/196446972-d92fe034-d835-4562-9993-a1ab18730c35.png">
 </p>
-
-* [Throttle model](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/model/throttle_model.h5) also **work well** in terms of following pilot behavior in deflecting 4 units of power lever angle (Since the aircraft have 4 engines). The problem for this model is the prediction value tends to **fluctuate** rather than having constant value to create step input graph. The comparison between model prediction and actual power lever angle value can be seen from this picture below. 
+<hr>
 
 <p align="center">
 <img width="897" alt="PLA Comparison" src="https://user-images.githubusercontent.com/92104520/196449142-dda478d9-03d1-4ad6-8ee5-dfe12e6aea59.png">
