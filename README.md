@@ -12,12 +12,6 @@ What i've done on this project are:
 * Convert TensorFlow model so that it can be used in Simulink to validate models performance when controlling aircraft in X-Plane to accomplish flight mission.  
 * Analyze effects of train dataset espescially in roll angle range to the perfromance of the controller created from 4 different models trained from different dataset. 
 
-Video below show how Cirrus Vision SF50 aircraft can accomplish the flight mission defined when being simulated using one of deep learning model created.
-
-https://user-images.githubusercontent.com/92104520/196456544-5096daf2-f6e2-4ec7-9fd8-40925ad4faa3.mp4
-
-https://user-images.githubusercontent.com/92104520/196456562-fa5d0a9f-5bb8-4e03-aad7-eb316a9437b1.mp4
-
 # [Project 2: Neural Style Transfer using AdaIn Method](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
 This is my capstone project at Bangkit Academy 2022 that awarded as top 53 capstone team semifinalist out of 433 teams. My job as machine learning cohort was create style transfer (NST) model using AdaIn Method by utilizing TensorFlow 2.x. Neural style transfer is an optimization technique used to blend two images become one image, where the reconstructed image will preserve the object from content image, while transfering style such as brushstroke from style image.
 
