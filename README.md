@@ -1,9 +1,14 @@
-# My Portfolio
+# About Me
+
+
+<hr /> 
+
+# My Projects
 
 # [Project 1: Fly-over Waypoint Following Control System of Cirrus Vision SF-50 Aircraft using Artificial Neural Network](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
 This is my undergradute thesis project, with the goals are to develop waypoint following controller ANN model for Cirrus Vision SF50 aircraft and study the relationship between training data that categorized by aircraft roll angle during the mission. This study give results that ANN model generally increase closeness of the aircraft to the waypoint compared to the PID method. It also shown that wider datasets didn't guarantee superior results due to generalizations that model try to made.
 
-What i've done on this project are:
+What I've done on this project are:
 * Set up communication environment to be able retrieve data from X-Plane as flight simulator to be processed in MATLAB/Simulink to give control signal back to X-Plane.
 * Tuned PID controller that allow the choosen aircraft accomplish flight mission with least of oscillation or swaying movement. 
 * Collected 10 flight missions data with various forms of mission flight path and split each section of waypoint leg based on roll angle range resulting into 4 characterized train datasets.
@@ -11,6 +16,8 @@ What i've done on this project are:
 * Created TensorFlow base model and did hyperparameter tuning from 4 different datasets using Bayesian Method that provided by KerasTuner. 
 * Convert TensorFlow model so that it can be used in Simulink to validate models performance when controlling aircraft in X-Plane to accomplish flight mission.  
 * Analyze effects of train dataset espescially in roll angle range to the perfromance of the controller created from 4 different models trained from different dataset. 
+
+<hr /> 
 
 # [Project 2: Neural Style Transfer using AdaIn Method](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
 This is my capstone project at Bangkit Academy 2022 that awarded as top 53 capstone team semifinalist out of 433 teams. My job as machine learning cohort was create style transfer (NST) model using AdaIn Method by utilizing TensorFlow 2.x. Neural style transfer is an optimization technique used to blend two images become one image, where the reconstructed image will preserve the object from content image, while transfering style such as brushstroke from style image.
