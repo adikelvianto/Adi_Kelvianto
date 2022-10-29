@@ -4,11 +4,29 @@
 
 # My Projects
 
-## [Analysis of Divvy 2021 using R]([https://github.com/adikelvianto/Auto_Landing_DL](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r))
+## [Analysis of Divvy Company Dataset in 2021 using R]([https://github.com/adikelvianto/Auto_Landing_DL](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r))
 ### October 2022
 
 ## [Development of Auto Landing Deep Learning Model for Boeing 747 Aircraft](https://github.com/adikelvianto/Auto_Landing_DL)
 ### October 2022
+This project aim to create **auto landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorcder"** data. 
+* First process done is **preprocessing the FDR data** which have a big size each flight and consisting a lot of noise, until we have dataset for training, validation, and testing.
+* There are two models built, elevator model and throttle model, with the step by step process can be shown in following notebook [Build Model - Elevator.ipynb](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/Build%20Model%20-%20Elevator.ipynb), [Build Model - Throttle.ipynb](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/Build%20Model%20-%20Throttle.ipynb)
+* The next development of this project is to deploy it to MATLAB/Simulink and X-Plane to see wether this models can do their job as an auto landing control system.
+
+## Result
+
+* [Elevator model](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/model/elevator_model.h5) work **really well** in predicting elevator deflection on landing phase. The predicted and actual trend is very similar, eventhough some of graphs shown the predicted value have **offset** value, but it **never exceed 4 degrees**. Hence, this model could be said well performed. This picture below shown sample of predicted value vs actual test set value for the elevator deflection. 
+
+<p align="center">
+<img width="1307" alt="Elevator Comparison" src="https://user-images.githubusercontent.com/92104520/196446972-d92fe034-d835-4562-9993-a1ab18730c35.png">
+</p>
+
+* [Throttle model](https://github.com/adikelvianto/Auto_Landing_DL/blob/main/model/throttle_model.h5) also **work well** in terms of following pilot behavior in deflecting 4 units of power lever angle (Since the aircraft have 4 engines). The problem for this model is the prediction value tends to **fluctuate** rather than having constant value to create step input graph. The comparison between model prediction and actual power lever angle value can be seen from this picture below. 
+
+<p align="center">
+<img width="897" alt="PLA Comparison" src="https://user-images.githubusercontent.com/92104520/196449142-dda478d9-03d1-4ad6-8ee5-dfe12e6aea59.png">
+</p>
 
 
 ## [Deep Learning Based Fly-Over Waypoints Control System for Business Jet Aircraft](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
@@ -36,8 +54,9 @@ What i've done on this project are:
 * Create style transfer model with **AdaIn** method, which consist of **encoder** model that based on sliced **VGG-19** pretrained model, **decoder** that basically inverse of the encoder model also AdaIn function to allign statistical features of content image and style image. 
 * **Train models** with those image datasets for 500 epochs and show the reconstructed image every 10 epochs to see performance of NST model. 
 
-![image](https://user-images.githubusercontent.com/92104520/185745237-39e97e3d-624e-4e4d-ba90-442dea43182a.png)
-
+<p align="center">
+ <img width="897" alt="Example Result" src="https://user-images.githubusercontent.com/92104520/185745237-39e97e3d-624e-4e4d-ba90-442dea43182a.png">
+</p>
 
 ## [Prototype Webiste based Application for Avionic Components Failure Prediction](https://github.com/adikelvianto/Avionic-Components-Failure-Prediction)
 ### December 2021
@@ -62,6 +81,8 @@ This is a **team project** done on my 7th semester for **"Aviation System Planni
 * Conduct **profitability analysis** and **calculate** the **price** we need to give **each kilogram** of cargo for each route we served.
 * **Analyze profit** earn each year, create **cash flow** for **10 years period** and calculate **Net Present Values** and **Net Profit Margin** earned.
 
-![image](https://user-images.githubusercontent.com/92104520/185748563-0ae2ef8c-3608-45f4-abae-2966ed55ed35.png)
+<p align="center">
+ <img width="897" alt="Cost Structure" src="https://user-images.githubusercontent.com/92104520/185748563-0ae2ef8c-3608-45f4-abae-2966ed55ed35.png">
+</p>
 
 Final presentation of this project can be found [**here**](https://github.com/adikelvianto/Aglis_Air_Cargo/blob/main/PSA%202021_Aglis_Finale.pptx).
