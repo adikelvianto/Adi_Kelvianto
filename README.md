@@ -46,9 +46,9 @@ What I've done on this project are:
 * **Analyzed** effects of train dataset espescially in **roll angle range** to the perfromance of the controller created from 4 different models trained from different dataset. 
 
 <p> This video shown below, show how aircraft being controlled to follow the waypoint based on 1 of 4 deep learning model created.</p>
-<p align="center">
 
 ![Alt Text](https://media.giphy.com/media/pdYsJhp7pwwi3Wwjj1/giphy.gif)
+![Alt Text](https://media.giphy.com/media/NSXSOpGxszAzsfRpfU/giphy.gif)
 
 ## [Neural Style Transfer using AdaIn Method](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
 ### June 2022
