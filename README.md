@@ -1,4 +1,4 @@
-# My Projects
+# My Portfolio
 
 ## [Analysis of Divvy Company Dataset in 2021 using R](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r)
 ### October 2022
