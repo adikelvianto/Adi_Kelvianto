@@ -4,7 +4,7 @@
 
 # My Projects
 
-## [Analysis of Divvy Company Dataset in 2021 using R]([https://github.com/adikelvianto/Auto_Landing_DL](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r))
+## [Analysis of Divvy Company Dataset in 2021 using R](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r)
 ### October 2022
 
 ## [Development of Auto Landing Deep Learning Model for Boeing 747 Aircraft](https://github.com/adikelvianto/Auto_Landing_DL)
