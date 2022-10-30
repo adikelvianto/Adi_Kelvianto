@@ -17,7 +17,7 @@ This is a study case where I positioning myself as a **junior data analyst** in 
 ### October 2022
 This project aim to create **auto landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorcder"** data. 
 * Preprocessed **Flight Data Recorder (FDR)** data, with a total of **20GB csv files**; **Split dataset** for training, validation, and testing.
-* Bult **elevator** model and **throttle** model using **TensorFlow** and **KerasTuner** to conduct hyperparameter tuning.
+* Conducted Exploratory Data Analysis, built **elevator** model and **throttle** model using **TensorFlow** and **KerasTuner** to conduct hyperparameter tuning.
 * The next **development** of this project is to **deploy** it to **MATLAB/Simulink and X-Plane** to see wether this models can do their job as an auto landing control system.* 
 
 <p> Here are some **comparison** between **model prediction** value and **actual value**, **both** for elevator model and throttle model.  </p>
