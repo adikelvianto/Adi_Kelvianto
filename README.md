@@ -1,9 +1,3 @@
-# About Me
-I am fresh graduate from Aerospace Engineering major at Bandung Institute of Technology, which focuses on the Aviation sub-major. Modeling, processing and analyzing data using various software such as MATLAB and ANSYS are my basic foundation. Besides that, I also have a high interest in Artificial Intelligence, I love to expand my knowledges with  IT or AI stuff,  and I've joined short bootcamp to learn using Python, HTML, CSS, and SQL.
-
-After having good foundation on those skills, I had the opportunity to implement it when doing an internship at PT GMF Aeroasia, by creating a simple website to perform failure prediction on avionics components using several machine learning algorithms. Not only that, I am also working on developing an aircraft waypoint following model using deep learning as my undergraduate thesis project. With the opportunity to become a machine learning path student in the Google Bangkit Program, I believe I can make a big impact on aviation industry by combining the skills I have.
-
-
 # My Projects
 
 ## [Analysis of Divvy Company Dataset in 2021 using R](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r)
