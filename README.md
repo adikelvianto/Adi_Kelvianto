@@ -16,7 +16,7 @@ This is a study case where I positioning myself as a **junior data analyst** in 
 ## [Development of Auto Landing Deep Learning Model for Boeing 747 Aircraft](https://github.com/adikelvianto/Auto_Landing_DL)
 ### October 2022
 This project aim to create **auto landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorcder"** data. 
-* Preprocessed **Flight Data Recorder (FDR)** data which a total of **20GB csv files**; **Split dataset** for training, validation, and testing.
+* Preprocessed **Flight Data Recorder (FDR)** data, with a total of **20GB csv files**; **Split dataset** for training, validation, and testing.
 * Bult **elevator** model and **throttle** model using **TensorFlow** and **KerasTuner** to conduct hyperparameter tuning.
 * The next **development** of this project is to **deploy** it to **MATLAB/Simulink and X-Plane** to see wether this models can do their job as an auto landing control system.* 
 
@@ -58,8 +58,8 @@ Image dataset that i used contain of **"PASCAL VOC"** dataset and validation set
 
 What i've done on this project are: 
 * **Processed** arround **27k images** to have size of 224x224, **convert** it to **tfrecords** format to enable **parallelization training**, and **split the dataset** into train, validation and test dataset. 
-* Created style transfer model with **AdaIn** method, which consist of **encoder** model that based on sliced **VGG-19** pretrained model, **decoder** that basically inverse of the encoder model also AdaIn function to allign statistical features of content image and style image. 
-* **Train models** with those image datasets for 500 epochs and show the reconstructed image every 10 epochs to see performance of NST model. 
+* Created style transfer model using **AdaIn** method, which consist of **encoder** model that based on sliced **VGG-19** pretrained model, **decoder** that basically inverse of the encoder model also AdaIn function to allign statistical features of content image and style image. 
+* **Trained model** with those image datasets for 500 epochs and analyze the reconstructed image every 10 epochs to see performance of NST model. 
 
 <p>This is an example of image reconstruced based on model that I built.</p>
 <p align="center">
@@ -68,14 +68,14 @@ What i've done on this project are:
 
 ## [Prototype Webiste based Application for Avionic Components Failure Prediction](https://github.com/adikelvianto/Avionic-Components-Failure-Prediction)
 ### December 2021
-This is my **internship** project at** PT. GMF Aeroasia Tbk**. for about **4 months**. In this project, I created a **prototype website** to give **failure prediction** of VHF Omnidirectional Range (VOR) and Multimode Control Panel components, by using **scikit-learn** library, **HTML, CSS and Flask.**
+This is my **internship** project at **PT. GMF Aeroasia Tbk**. for about **4 months**. In this project, I created a **prototype website** to give **failure prediction** of VHF Omnidirectional Range (VOR) and Multimode Control Panel components, by using **scikit-learn** library, **HTML, CSS and Flask.**
 
 What I've done on this project are: 
 * Collected information regarding maintenance from "Internal Component Refurbishment" documents both for VOR component (19 sub test) and Multimode Control Panel component (23 sub test) to **create 2 datasets**.
 * **Split dataset** into train, validation and test dataset and did "**Nested Cross Validation**" method to get **best hyperparameter** for each machine learning algorithm used (Decision Tree, Random Forest, Gradient Boosting, Gaussian Naive Bayes, KNN, MLP).
 * **Picked 3** best perform algorithm for both component that give **best accuracy** on test set **to be deployed** on website. 
 * Created structure of the website using HTML with total of **5 pages**, designed using CSS and a bit of JavaScript to allow value stored in each toggle button changed when user give a click. 
-* **Deployed** this website by using **Flask API** and help of **Heroku** platform as a **server**. 
+* **Deployed** the website by using **Flask API** and help of **Heroku** platform as a **server**. 
 
 Result of the deploy website can be found [**here**](https://avionic-failure-prediction.herokuapp.com/)
 
