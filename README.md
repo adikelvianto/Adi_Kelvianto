@@ -47,8 +47,6 @@ What I've done on this project are:
 
 <p> This video shown below, show how aircraft being controlled to follow the waypoint based on 1 of 4 deep learning model created.</p>
 <p align="center">
- 
-![Alt Text](https://media.giphy.com/media/NSXSOpGxszAzsfRpfU/giphy.gif)
 
 ![Alt Text](https://media.giphy.com/media/pdYsJhp7pwwi3Wwjj1/giphy.gif)
 
