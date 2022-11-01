@@ -83,11 +83,11 @@ Result of the deploy website can be found [**here**](https://avionic-failure-pre
 ### December 2021
 This is a **team project** done on my 7th semester for **"Aviation System Planning" class**, which requires each team to create an aviation business from raw and will be evaluated by experienced people on this area. In this project, we decided to create a **cargo airline** named **"Aglis"** which focuses on delivering marine products and general goods. In this project, I have a **duty as Chief Finance Officer (CFO)** that conduct several task such as:
 
-* **Find** the **most suitable aircraft** to be used also the **number of aircrafts needed** to serve demand we have.
-* Create **maintenance schedule** to determine non operating days and make sure all aircraft is airworthy.
-* Calculate **cost structure** of cargo airline company consisting of direct, indirect and ownership costs.
-* Conduct **profitability analysis** and **calculate** the **price** we need to give **each kilogram** of cargo for each route we served.
-* **Analyze profit** earn each year, create **cash flow** for **10 years period** and calculate **Net Present Values** and **Net Profit Margin** earned.
+* **Found** the **most suitable aircraft** to be used also the **number of aircrafts needed** to serve the cargo demmand.
+* Created **maintenance schedule** to determine non operating days and make sure all aircraft is airworthy.
+* Calculated **cost structure** of cargo airline company consisting of direct, indirect and ownership costs.
+* Conducted **profitability analysis** and **calculated** the **price** we need to give **each kilogram** of cargo for each route we served.
+* **Analyzed profit** earn each year, created **cash flow** for **10 years period** and calculated **Net Present Values** and **Net Profit Margin** earned.
 
 <p align="center">
  <img width="897" alt="Cost Structure" src="https://user-images.githubusercontent.com/92104520/185748563-0ae2ef8c-3608-45f4-abae-2966ed55ed35.png">
