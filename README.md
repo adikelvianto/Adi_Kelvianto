@@ -37,13 +37,13 @@ Here are some **comparison** between **model prediction** value and **actual val
 This is my undergradute thesis project, with the goals are to **develop waypoint following controller deep learning model** espescially for **Cirrus Vision SF50** aircraft and **study the relationship between training data** that categorized by aircraft roll angle during the mission. This study give results that deep learning model generally increase closeness of the aircraft to the waypoint compared to the PID method, eventhough the dataset used is a piece of sliced data. It also shown that **wider datasets didn’t guarantee superior results** due to generalizations that model try to made.
 
 What I've done on this project are:
-* **Set up communication environment** to be able retrieve data from X-Plane as flight simulator to be processed in MATLAB/Simulink to give control signal back to X-Plane.
-* **Tuned PID controller** that allow the choosen aircraft accomplish flight mission with least of oscillation or swaying movement. 
-* **Collected** 10 flight **missions data** with various forms of mission flight path and split each section of waypoint leg based on roll angle range resulting into **4 characterized train datasets**.
-* **Resampled data frequency, removed outliers, data smoothing, and Exploratory Data Analysis (EDA)** to select features for the model.
-* Created TensorFlow base model and did **hyperparameter tuning** from 4 different datasets using **Bayesian Method** that provided by **KerasTuner**. 
-* **Converted TensorFlow model** so that it can **be used in Simulink** to **validate** models performance when controlling aircraft **in X-Plane** to accomplish flight mission.  
-* **Analyzed** effects of train dataset espescially in **roll angle range** to the perfromance of the controller created from 4 different models trained from different dataset. 
+* **Set up communication environment** between **X-Plane** and **MATLAB/Simulink**.
+* **Tuned PID controller** that allow Cirrus Vision SF-50 accomplish flight mission with least of oscillation or swaying movement. 
+* **Created** 10 **flights mission** data through **simulation** with various forms of mission flight path and split each section of waypoint leg based on roll angle range resulting into **4 characterized train datasets**.
+* Preprocessed, Cleaned, and did Exploratory Data Analysis to **select features** for the **joystick model**.
+* **Develop** 4 **TensorFlow model** from 4 different datasets and did hyperparameter tuning using **Bayesian Method** that provided by **KerasTuner**. 
+* **Converted TensorFlow model** so that it can **be used in Simulink** and **validate** each model performance in **X-Plane**. 
+* **Analyzed** effects between **train dataset** and deep learning-based controller **model performance**. 
 
 <p> This video shown below, show how aircraft being controlled to follow the waypoint based on 1 of 4 deep learning model created.</p>
 
