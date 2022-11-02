@@ -20,7 +20,7 @@ This project aim to create **auto landing deep learning model** using TensorFlow
 * Conducted Exploratory Data Analysis, built **elevator** model and **throttle** model using **TensorFlow** and **KerasTuner** to conduct hyperparameter tuning.
 * The next **development** of this project is to **deploy** it to **MATLAB/Simulink and X-Plane** to see wether this models can do their job as an auto landing control system.* 
 
-<p> Here are some **comparison** between **model prediction** value and **actual value**, **both** for elevator model and throttle model.  </p>
+Here are some **comparison** between **model prediction** value and **actual value**, **both** for elevator model and throttle model.
 
 <p align="center">
 <img width="1307" alt="Elevator Comparison" src="https://user-images.githubusercontent.com/92104520/196446972-d92fe034-d835-4562-9993-a1ab18730c35.png">
