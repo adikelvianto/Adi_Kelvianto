@@ -86,7 +86,7 @@ This is a **team project** done on my 7th semester for **"Aviation System Planni
 * **Found** the **most suitable aircraft** to be used also the **number of aircrafts needed** to serve the cargo demmand.
 * Created **maintenance schedule** to determine non operating days and make sure all aircraft is airworthy.
 * Calculated **cost structure** of cargo airline company consisting of direct, indirect and ownership costs.
-* Conducted **profitability analysis** and **calculated** the **price** we need to give **each kilogram** of cargo for each route we served.
+* Conducted **profitability analysis** and **calculated price** per kilogram for each route we served.
 * **Analyzed profit** earn each year, created **cash flow** for **10 years period** and calculated **Net Present Values** and **Net Profit Margin** earned.
 
 <p align="center">
