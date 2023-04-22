@@ -3,24 +3,25 @@
 ## [Analysis of Divvy Company Dataset in 2021 using R](https://www.kaggle.com/code/adikelvianto29/analysis-of-divvy-2021-dataset-using-r)
 ### October 2022
 
-This is a study case where I positioning myself as a **junior data analyst** in the **marketing analytics team** at **Cyclistic (Divvy)**, with **responsibility** to get **insight from historical data** and **lead to new marketing strategy** espescially to shift casual riders to annual members. All works done in this project conducted **using R language**, with the details are following: 
-* Defined **business problem** to solve
-* **Gathered, ensure data credibility** and **cleaned data** from Divvy company historical data. (**January - December 2021**)
-* Created **custom metrics** and **analyzed** stasticial summary of dataset.
-* Did **analysis** based on **several metric**s too see **difference** between **casual** riders and **member** riders.
-* Give **4 recommendations** for company regrading company's marketing strategist to **shift casual riders become members based on the story that data tells**. 
+This is a case study in which I positioned myself as a **junior data analyst** on the **marketing analytics team** at **Cyclistic (Divvy)**. My **responsibility** was to extract **insights from historical data** and **develop new marketing strategies**, with the goal of converting casual riders into annual members. All work was conducted **using the R programming language**, and the details are as follows:
+
+* Defined the **business problem** to be solved.
+* **Gathered, ensured the credibility of, and cleaned** the historical data from Divvy company. (**January - December 2021**)
+* Created **custom metrics** and **analyzed** the statistical summary of the dataset.
+* Conducted **analysis** based on **several metrics** to understand the **differences** between **casual** and **member** riders.
+* **Provided four recommendations** to the company regarding their marketing strategy in order to **convert casual riders into annual members based on the insights derived from the data**.
 
 ![image](https://user-images.githubusercontent.com/92104520/198869067-995e6c60-9c41-4e18-ba55-cab457f09cbd.png)
 
 
 ## [Development of Auto Landing Deep Learning Model for Boeing 747 Aircraft](https://github.com/adikelvianto/Auto_Landing_DL)
 ### October 2022
-This project aim to create **auto landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorcder"** data. 
-* Preprocessed **Flight Data Recorder (FDR)** data, with a total of **20GB csv files**; **Split dataset** for training, validation, and testing.
-* Conducted Exploratory Data Analysis, built **elevator** model and **throttle** model using **TensorFlow** and **KerasTuner** to conduct hyperparameter tuning.
-* The next **development** of this project is to **deploy** it to **MATLAB/Simulink and X-Plane** to see wether this models can do their job as an auto landing control system.
+This project aims to create an **auto-landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorder"** data. 
+* Preprocessed **Flight Data Recorder (FDR)** data, which consisted of a total of **20GB CSV files**; **split** the dataset for training, validation, and testing.
+* Conducted Exploratory Data Analysis and built **an elevator model** and **a throttle model** using **TensorFlow** and **KerasTuner** to conduct hyperparameter tuning.
+* The next stage of development for this project is to **deploy** it to **MATLAB/Simulink and X-Plane** to see whether these models can perform their job as an auto-landing control system.
 
-Here are some **comparison** between **model prediction** value and **actual value**, **both** for elevator model and throttle model.
+Here are some **comparisons** between **model prediction** values and **actual values**, for **both** the elevator and throttle models.
 
 <p align="center">
 <img width="1307" alt="Elevator Comparison" src="https://user-images.githubusercontent.com/92104520/196446972-d92fe034-d835-4562-9993-a1ab18730c35.png">
