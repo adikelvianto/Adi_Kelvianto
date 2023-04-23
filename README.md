@@ -16,7 +16,8 @@ This is a case study in which I positioned myself as a **junior data analyst** o
 
 ## [Development of Auto Landing Deep Learning Model for Boeing 747 Aircraft](https://github.com/adikelvianto/Auto_Landing_DL)
 ### October 2022
-This project aims to create an **auto-landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorder"** data. 
+This project aims to create an **auto-landing deep learning model** using TensorFlow by utilizing **"Flight Data Recorder"** data.
+The stages carried out in this project include:
 * Preprocessed **Flight Data Recorder (FDR)** data, which consisted of a total of **20GB CSV files**; **split** the dataset for training, validation, and testing.
 * Conducted Exploratory Data Analysis and built **an elevator model** and **a throttle model** using **TensorFlow** and **KerasTuner** to conduct hyperparameter tuning.
 * The next stage of development for this project is to **deploy** it to **MATLAB/Simulink and X-Plane** to see whether these models can perform their job as an auto-landing control system.
@@ -35,60 +36,61 @@ Here are some **comparisons** between **model prediction** values and **actual v
 
 ## [Deep Learning Based Fly-Over Waypoints Control System for Business Jet Aircraft](https://github.com/adikelvianto/Fly-Over_Waypoints_ANN)
 ### September 2022
-This is my undergradute thesis project, with the goals are to **develop fly over waypoints controller system using deep learning method** espescially for **Cirrus Vision SF50** aircraft and **study the relationship between training data** that categorized by aircraft roll angle during the mission. This study give results that deep learning model generally increase closeness of the aircraft to the waypoint compared to the PID method, eventhough the dataset used is a piece of sliced data. It also shown that **wider datasets didn’t guarantee superior results** due to generalizations that model try to made.
+This is my undergraduate thesis project, which aims to **develop a fly-over waypoint controller system using deep learning methods**, particularly for the Cirrus Vision SF50 aircraft. Additionally, I am **studying the relationship** between training data and their categorization by the aircraft's roll angle during the mission. This study yielded results showing that the **deep learning model generally improves the aircraft's closeness to the waypoint compared to the PID method, even when using a sliced dataset**. It was also shown that **wider datasets do not guarantee superior results** due to generalizations that the model attempts to make.
 
-What I've done on this project are:
-* **Set up communication environment** between **X-Plane** and **MATLAB/Simulink**.
-* **Tuned PID controller** that allow Cirrus Vision SF-50 accomplish flight mission with least of oscillation or swaying movement. 
-* **Created** 10 **flights mission** data through **simulation** with various forms of mission flight path and split each section of waypoint leg based on roll angle range resulting into **4 characterized train datasets**.
-* Preprocessed, Cleaned, and did Exploratory Data Analysis to **select features** for the **joystick model**.
-* **Develop** 4 **TensorFlow model** from 4 different datasets and did hyperparameter tuning using **Bayesian Method** that provided by **KerasTuner**. 
-* **Converted TensorFlow model** so that it can **be used in Simulink** and **validate** each model performance in **X-Plane**. 
-* **Analyzed** effects between **train dataset** and deep learning-based controller **model performance**. 
+The tasks completed in this project are as follows:
 
-<p> This video shown below, show how aircraft being controlled to follow the waypoint based on 1 of 4 deep learning model created.</p>
+* Setting up a **communication** environment between **X-Plane** and **MATLAB/Simulink**.
+* **Tuning the PID controller** to enable the Cirrus Vision SF-50 to complete flight missions with minimal oscillation or swaying movement.
+* **Creating 10 flight mission data sets through simulation**, with various forms of mission flight paths, and **splitting** each section of the waypoint leg based on the roll angle range, resulting in **four characterized train datasets**.
+* **Preprocessing, cleaning, and conducting exploratory data analysis** to select features for the joystick model.
+* **Developing four TensorFlow models from four different datasets** and conducting **hyperparameter tuning** using the **Bayesian method** provided by KerasTuner.
+* Converting the TensorFlow models so that they can be used in Simulink and validating each model's performance in X-Plane.
+* **Analyzing the effects between the train dataset and the deep learning-based controller model performance.**
+
+<p>The video below demonstrates how the aircraft is controlled to follow the waypoint using one of the four deep learning models that were created.</p>
 
 ![Alt Text](https://media.giphy.com/media/pdYsJhp7pwwi3Wwjj1/giphy.gif)
 ![Alt Text](https://media.giphy.com/media/NSXSOpGxszAzsfRpfU/giphy.gif)
 
 ## [Neural Style Transfer using AdaIn Method](https://github.com/Artjuna/artjuna-monorepo/tree/main/model/style_transfer)
 ### June 2022
-This is my **capstone project** at **Bangkit Academy 2022** that awarded as **top 53** capstone team **semifinalist** out of 433 teams. My job as machine learning cohort was to create Neural Style Transfer (NST) model using AdaIn Method by utilizing TensorFlow 2.x. **Neural style transfer** is an optimization technique used to **blend two images** become one image, where the reconstructed image will **preserve the object from content image**, while **transfering style** such as brushstroke from style image.
+This is my **capstone project** at **Bangkit Academy 2022**, which was awarded as one of the **top 53** capstone teams in the semifinals out of 433 teams. As part of the machine learning cohort, my task was to create a Neural Style Transfer (NST) model using the AdaIn method by utilizing TensorFlow 2.x. **Neural style transfer** is an optimization technique used to **blend two images** into one image, where the reconstructed image preserves the object from the content image while transferring the style, such as brushstroke, from the style image.
 
-Image dataset that I used contain of **"PASCAL VOC"** dataset and validation set of **"COCO-2017"** as content image (arround **14k** images) and style image dataset consisting **"Best Artwork of All Time"** and **"Wikiart"** dataset (arround **13k** images) 
+The image dataset I used contains the **"PASCAL VOC"** dataset and a validation set of **"COCO-2017"** as the content image (around **14k** images) and the style image dataset consisting of the **"Best Artwork of All Time"** and **"Wikiart"** datasets (around **13k** images).
 
-What I've done on this project are: 
-* **Processed** arround **27k images** to have size of 224x224, **convert** it to **tfrecords** format to enable **parallelization training**, and **split the dataset** into train, validation and test dataset. 
-* Created style transfer model using **AdaIn** method, which consist of **encoder** model that based on sliced **VGG-19** pretrained model, **decoder** that basically inverse of the encoder model also AdaIn function to allign statistical features of content image and style image. 
-* **Trained model** with those image datasets for 500 epochs and analyze the reconstructed image every 10 epochs to see performance of NST model. 
+What I've done on this project:
+* **Processed** around **27k images** to have a size of 224x224, **converted** them to **tfrecords** format to enable **parallelized training**, and **split the dataset** into the train, validation, and test dataset.
+* Created a style transfer model using the **AdaIn** method, which consists of an **encoder** model based on sliced **VGG-19** pretrained model, a **decoder** that is essentially the inverse of the encoder model, and an AdaIn function to align statistical features of the content image and style image.
+* **Trained the model** with the image datasets for 500 epochs and analyzed the reconstructed image every 10 epochs to observe the performance of the NST model.
 
-<p>This is an example of image reconstruced based on model that I built.</p>
+</p>This is an example of an image reconstructed based on the model I built.</p>
 <p align="center">
  <img width="897" alt="Example Result" src="https://user-images.githubusercontent.com/92104520/185745237-39e97e3d-624e-4e4d-ba90-442dea43182a.png">
 </p>
 
 ## [Prototype Webiste based Application for Avionic Components Failure Prediction](https://github.com/adikelvianto/Avionic-Components-Failure-Prediction)
 ### December 2021
-This is my **internship** project at **PT. GMF Aeroasia Tbk**. for about **4 months**. In this project, I created a **prototype website** to give **failure prediction** of VHF Omnidirectional Range (VOR) and Multimode Control Panel components, by using **scikit-learn** library, **HTML, CSS and Flask.**
+This is my **internship** project at **PT. GMF Aeroasia Tbk** for about **4 months**. In this project, I created a **prototype website** to provide **failure prediction** of VHF Omnidirectional Range (VOR) and Multimode Control Panel components using **scikit-learn** library, **HTML, CSS, and Flask**.
 
-What I've done on this project are: 
-* Collected information regarding maintenance from "Internal Component Refurbishment" documents both for VOR component (19 sub test) and Multimode Control Panel component (23 sub test) to **create 2 datasets**.
-* **Split dataset** into train, validation and test dataset and did "**Nested Cross Validation**" method to get **best hyperparameter** for each machine learning algorithm used (Decision Tree, Random Forest, Gradient Boosting, Gaussian Naive Bayes, KNN, MLP).
-* **Picked 3** best perform algorithm for both component that give **best accuracy** on test set **to be deployed** on website. 
-* Created structure of the website using HTML with total of **5 pages**, designed using CSS and a bit of JavaScript to allow value stored in each toggle button changed when user give a click. 
-* **Deployed** the website by using **Flask API** and help of **Heroku** platform as a **server**. 
+What I did in this project are:
+* Collected maintenance information from "Internal Component Refurbishment" documents for VOR (19 sub-tests) and Multimode Control Panel components (23 sub-tests) to **create 2 datasets**.
+* **Split the datasets** into train, validation, and test datasets and used "**Nested Cross-Validation**" method to get the **best hyperparameters** for each machine learning algorithm used (Decision Tree, Random Forest, Gradient Boosting, Gaussian Naive Bayes, KNN, and MLP).
+* **Selected 3** best performing algorithms for both components that gave **the highest accuracy** on the test set to be deployed on the website. 
+* Created a website structure using HTML with a total of **5 pages**, designed using CSS, and implemented JavaScript to allow the values stored in each toggle button to be changed when users clicked on them. 
+* **Deployed** the website using **Flask API** and **Heroku** platform as a **server**.
 
-Result of the deploy website can be found [**here**](https://avionic-failure-prediction.herokuapp.com/)
+The deployed website can be found [**here**](https://avionic-failure-prediction.herokuapp.com/)
 
 ## [Cargo Airlines Financial Analysis](https://github.com/adikelvianto/Aglis_Air_Cargo)
 ### December 2021
-This is a **team project** done on my 7th semester for **"Aviation System Planning" class**, which requires each team to create an aviation business from raw and will be evaluated by experienced people on this area. In this project, we decided to create a **cargo airline** named **"Aglis"** which focuses on delivering marine products and general goods. In this project, I have a **duty as Chief Finance Officer (CFO)** that conduct several task such as:
+This is a **team project** that I completed during my 7th semester at Institut Teknologi Bandung for the **"Aviation System Planning" class**. The assignment required us to create an aviation business from scratch and have it evaluated by experienced professionals in the field. Our team decided to establish a **cargo airline company** named **"Aglis"** that specializes in delivering marine products and general goods. As the **Chief Finance Officer (CFO)**, I was responsible for several tasks, including:
 
-* **Found** the **most suitable aircraft** to be used also the **number of aircrafts needed** to serve the cargo demmand.
-* Created **maintenance schedule** to determine non operating days and make sure all aircraft is airworthy.
-* Calculated **cost structure** of cargo airline company consisting of direct, indirect and ownership costs.
-* Conducted **profitability analysis** and **calculated price** per kilogram for each route we served.
-* **Analyzed profit** earn each year, created **cash flow** for **10 years period** and calculated **Net Present Values** and **Net Profit Margin** earned.
+* Finding the **most suitable aircraft** and determining the **required number of aircrafts** to meet the cargo demand.
+* Developing a **maintenance schedule** to identify non-operating days and ensure all aircrafts are airworthy.
+* Calculating the **cost structure** of the cargo airline company, which includes direct, indirect, and ownership costs.
+* Conducting a **profitability analysis** and calculating the **price per kilogram** for each route we served.
+* Analyzing the profit earned each year, creating a **10-year cash flow**, and calculating the **Net Present Values (NPV)** and **Net Profit Margin (NPM)** earned.
 
 <p align="center">
  <img width="897" alt="Cost Structure" src="https://user-images.githubusercontent.com/92104520/185748563-0ae2ef8c-3608-45f4-abae-2966ed55ed35.png">
